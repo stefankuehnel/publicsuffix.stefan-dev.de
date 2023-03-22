@@ -1,0 +1,14 @@
+v: 0
+micros:
+  - name: publicsuffix
+    src: .
+    engine: custom
+    commands:
+      - go get
+      - go version
+      - go build main.go
+    include:
+      - main
+    run: ./main
+    public_routes:
+      - "/*"

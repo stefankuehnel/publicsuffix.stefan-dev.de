@@ -1,0 +1,67 @@
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0;
+}
+
+a:link {
+  color: blue;
+}
+
+a:hover {
+  background-color: #ccf;
+}
+
+a:visited {
+  color: blue;
+}
+
+.titletext {
+  font-weight: bold;
+}
+
+.header {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-color: silver;
+  width: 100%;
+}
+
+.footer {
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-color: silver;
+  width: 100%;
+}
+
+.cellleft {
+  text-align: left;
+  vertical-align: top;
+}
+
+.cellright {
+  text-align: right;
+  vertical-align: top;
+}
+
+p {
+  margin-top: 0.5em;
+}
+
+li {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.github {
+  display: inline-flex;
+  align-items: center;
+}
+
+.github svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.25em;
+}
